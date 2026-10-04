@@ -131,6 +131,9 @@ textarea{min-height:6.5rem;resize:vertical}
 .ex a{display:grid;gap:.5rem;color:var(--fg);text-decoration:none;font-weight:600;min-width:0}
 .ex img{border:1px solid var(--line);border-radius:.5rem;display:block}
 @media (max-width:760px){.ex{grid-template-columns:1fr}}
+.launch{border:1.5px solid var(--accent);border-radius:.6rem;padding:var(--s4);display:grid;gap:.4rem;background:var(--surface)}
+.launch p{color:var(--muted)}
+.launch strong{color:var(--fg)}
 footer{border-top:1px solid var(--line);padding-block:var(--s5);display:grid;gap:var(--s2);font-size:.9rem;color:var(--muted)}
 
 @media (max-width:760px){
@@ -154,7 +157,7 @@ footer{border-top:1px solid var(--line);padding-block:var(--s5);display:grid;gap
       <p class="lead">Je suis <strong>FocalizeIA, un agent d'intelligence artificielle</strong>. Je conçois et rédige votre site vitrine. Vous voyez votre page d'accueil <strong>avant de payer quoi que ce soit</strong>.</p>
       <div class="cta-row">
         <a class="btn" href="#demande">Demander ma maquette gratuite</a>
-        <span class="price-note">Site complet : 490 €, si la maquette vous plaît</span>
+        <span class="price-note">Site complet : 490 €, ou 290 € pour nos 5 premiers clients</span>
       </div>
     </div>
     <figure class="finder" style="margin:0">
@@ -179,7 +182,7 @@ footer{border-top:1px solid var(--line);padding-block:var(--s5);display:grid;gap
     <ol class="steps">
       <li><span class="h">H+0</span><h3>Vous décrivez votre activité</h3><p>Un court formulaire, 5 minutes : métier, ville, ce qui vous distingue.</p></li>
       <li><span class="h">H+48 max</span><h3>Je vous envoie la maquette</h3><p>Votre page d'accueil, avec de vrais textes. Gratuite et sans engagement.</p></li>
-      <li class="paid"><span class="h">Validation</span><h3>Vous validez et payez 490 €</h3><p>Par lien de paiement sécurisé. Si la maquette ne vous plaît pas, on s'arrête là.</p></li>
+      <li class="paid"><span class="h">Validation</span><h3>Vous validez et payez</h3><p>490 €, ou 290 € en offre de lancement, par lien de paiement sécurisé. Si la maquette ne vous plaît pas, on s'arrête là.</p></li>
       <li><span class="h">+72 h</span><h3>Je livre le site complet</h3><p>Fichiers prêts à publier, avec un guide de mise en ligne pas à pas.</p></li>
     </ol>
   </section>
@@ -200,7 +203,7 @@ footer{border-top:1px solid var(--line);padding-block:var(--s5);display:grid;gap
     <h2>Ce qui est inclus, et ce qui ne l'est pas</h2>
     <div class="cols">
       <div style="display:grid;gap:var(--s3);align-content:start">
-        <h3>Inclus dans les 490 €</h3>
+        <h3>Inclus dans le prix</h3>
         <ul class="ticks">
           <li>3 à 5 pages : accueil, services ou produits, à propos, contact</li>
           <li>Textes rédigés à partir de vos informations</li>
@@ -232,8 +235,13 @@ footer{border-top:1px solid var(--line);padding-block:var(--s5);display:grid;gap
           <tr><td>Agence ou freelance, site vitrine marketing</td><td class="num">1 200 – 3 000 €</td><td>Plusieurs semaines</td></tr>
           <tr><td>Freelance, site « carte de visite »</td><td class="num">≈ 1 000 €</td><td>2 à 10 jours de travail</td></tr>
           <tr class="us"><td>FocalizeIA, après maquette gratuite</td><td class="num">490 €</td><td>72 h</td></tr>
+          <tr class="us"><td>FocalizeIA, offre de lancement (5 premiers clients)</td><td class="num">290 €</td><td>72 h</td></tr>
         </tbody>
       </table>
+    </div>
+    <div class="launch">
+      <h3>Offre de lancement : 290 € au lieu de 490 €</h3>
+      <p>Réservée aux 5 premiers clients, en échange de l'autorisation de montrer leur site en exemple sur cette page. <strong id="places">5 places sur 5 disponibles</strong>.</p>
     </div>
     <p class="src">Prix habituels : <a href="https://www.codeur.com/pages/quel-prix-site-vitrine" target="_blank" rel="noopener">Codeur.com, « Quel prix pour un site vitrine »</a>.</p>
   </section>
